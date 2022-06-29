@@ -1,5 +1,4 @@
 import os
-from crypt import methods
 from flask import Flask, request
 from flask_cors import CORS
 from flask_sqlalchemy import SQLAlchemy
