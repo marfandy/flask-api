@@ -245,4 +245,4 @@ api.add_resource(LoginResource, "/api/login", methods=["POST"])
 api.add_resource(LogoutResource, "/api/logout", methods=["POST"])
 
 if __name__ == "__main__":
-    app.run(debug=True, port=8000)
+    app.run(debug=True, port=5005)
