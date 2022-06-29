@@ -1,9 +1,9 @@
 from datetime import datetime, date, timedelta
 from flask import request, make_response, jsonify
 from flask_restful import Resource, Api
-from app.configs import SECRET_KEY, app
+from configs import SECRET_KEY, app
 from models.employee import Activity, Attendance, Employee
-from app.configs import db
+from configs import db
 from dependency.authbearer import TokenBearer
 
 

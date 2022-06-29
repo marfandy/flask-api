@@ -1,5 +1,5 @@
 from email.policy import default
-from app.configs import db
+from configs import db
 from datetime import datetime
 
 

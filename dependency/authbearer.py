@@ -6,7 +6,7 @@ from flask_restful import Resource, Api
 import jwt
 import datetime
 
-from app.configs import SECRET_KEY
+from configs import SECRET_KEY
 from models.employee import Employee
 
 
