@@ -39,7 +39,7 @@ class Activity(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     person_id = db.Column(db.Integer, db.ForeignKey(
         'employee.id'), nullable=False)
-    action = db.Column(db.String(50), unique=True, nullable=False)
+    action = db.Column(db.String(50), nullable=False)
     created_at = db.Column(db.DateTime, default=datetime.utcnow)
 
     def save(self):
