@@ -1,12 +1,11 @@
+import datetime
 from functools import wraps
 from textwrap import wrap
-from flask import Flask, request, make_response, jsonify
-from flask_restful import Resource, Api
 
 import jwt
-import datetime
-
 from configs import SECRET_KEY
+from flask import Flask, jsonify, make_response, request
+from flask_restful import Api, Resource
 from models.employee import Employee
 
 
